@@ -1,13 +1,13 @@
 
-#Adding an existing project to GitHub
+# Adding an existing project to GitHub
 
 Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.
 
-#Initialize the local directory as a Git repository.
+# Initialize the local directory as a Git repository.
 
 $ git init
 
-#Add the files in your new local repository. This stages them for the first commit.
+# Add the files in your new local repository. This stages them for the first commit.
 
 git add .
 # Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
